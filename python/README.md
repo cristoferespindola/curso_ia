@@ -16,6 +16,19 @@ Bem-vindo ao guia completo de Python! Aqui você encontrará dicas, conceitos e 
   - Exemplos práticos de formatação
   - Tabela de formatadores
 
+### 📊 **Bibliotecas Essenciais**
+- 🐼 [Pandas](./pandas.md)
+  - Manipulação e análise de dados
+  - DataFrames e Series
+  - Limpeza e transformação de dados
+  - Integração com Machine Learning
+
+- 🧠 [Scikit-learn](./sklearn.md)
+  - Machine Learning supervisionado
+  - Classificação e regressão
+  - Modelos principais (LogisticRegression, RandomForest, etc.)
+  - Avaliação e métricas
+
 ### 🔄 **Conceitos Avançados**
 - 🔄 [Conceitos Fundamentais](./conceitos.md)
   - Recursão e funções
@@ -27,7 +40,7 @@ Bem-vindo ao guia completo de Python! Aqui você encontrará dicas, conceitos e 
 
 1. **Comece pela configuração** - Instale Python e configure seu ambiente
 2. **Aprenda o básico** - Estrutura de scripts e manipulação de strings
-3. **Explore conceitos avançados** - Recursão e técnicas avançadas
+3. **Explore as bibliotecas** - Pandas para dados, Scikit-learn para ML
 4. **Pratique** - Use o terminal para testar rapidamente
 
 ## 💡 Dicas Rápidas
@@ -51,13 +64,29 @@ minuto = 5
 print(f"São {hora:02d}:{minuto:02d}")  # São 09:05
 ```
 
+### Usando Pandas:
+```python
+import pandas as pd
+df = pd.DataFrame({'coluna': [1, 2, 3]})
+print(df.head())
+```
+
+### Usando Scikit-learn:
+```python
+from sklearn.linear_model import LogisticRegression
+modelo = LogisticRegression()
+print("Modelo criado!")
+```
+
 ## 📖 Estrutura dos arquivos
 
 ```
 python/
 ├── README.md                    # ← Este arquivo (menu principal)
 ├── manipulacao_strings.md       # F-strings e formatação
-└── conceitos.md                # Recursão e dicas
+├── pandas.md                   # Manipulação de dados
+├── sklearn.md                  # Machine Learning
+└── conceitos.md               # Recursão e dicas
 
 modulo-1/submodulo-1A/
 ├── aula 1A.1/
@@ -73,6 +102,8 @@ modulo-1/submodulo-1A/
 - [x] ✅ Configuração inicial (Python + venv)
 - [x] ✅ Estrutura básica de scripts
 - [x] ✅ Manipulação de strings
+- [x] ✅ Pandas para dados
+- [x] ✅ Scikit-learn para ML
 - [x] ✅ Conceitos de recursão
 - [ ] 📝 Adicionar mais tópicos de Python
 - [ ] 📝 Criar exercícios práticos
@@ -83,6 +114,8 @@ modulo-1/submodulo-1A/
 
 - [🐍 Python.org](https://www.python.org/) - Site oficial
 - [📚 Python Documentation](https://docs.python.org/) - Documentação oficial
+- [🐼 Pandas Documentation](https://pandas.pydata.org/) - Guia do Pandas
+- [🧠 Scikit-learn Documentation](https://scikit-learn.org/) - Guia do Scikit-learn
 - [🎓 Real Python](https://realpython.com/) - Tutoriais excelentes
 
 ---
