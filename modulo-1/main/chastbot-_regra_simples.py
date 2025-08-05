@@ -8,8 +8,6 @@ def chatbot_resposta(mensagem):
         return "Estou bem, obrigado por perguntar!"
     elif mensagem.lower() in ["qual é a sua função?", "qual e a sua função?", "qual é a sua função", "qual e a sua função"]:
         return "Eu sou um assistente virtual criado para ajudar você com suas necessidades."
-    elif mensagem.lower() in ["conhece a Carol?", "conhece a carol?", "conhece a Carol", "conhece a carol"]:
-        return "Carol é uma amiga muito especial. Ela é uma pessoa incrivelmente inteligente e linda. Ela é a esposa de meu criador."
     else:
         return "Desculpe, não entendi a pergunta. Pode repetir?"
     
