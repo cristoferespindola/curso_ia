@@ -398,3 +398,7 @@ acuracia = pipeline.score(X_test, y_test)
 ---
 
 **🧠 Scikit-learn é a ferramenta essencial para Machine Learning em Python!** Oferece tudo que você precisa para criar modelos preditivos poderosos. 🚀
+
+---
+
+**📚 Referência:** [Documentação oficial do Scikit-learn](https://scikit-learn.org/stable/)

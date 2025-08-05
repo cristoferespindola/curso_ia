@@ -287,3 +287,7 @@ y_array = y.values
 ---
 
 **🐼 Pandas é essencial para qualquer projeto de dados em Python!** É a base para análise, limpeza e preparação de dados para Machine Learning. 🚀
+
+---
+
+**📚 Referência:** [Documentação oficial do Pandas](https://pandas.pydata.org/docs/)
