@@ -2,6 +2,11 @@
 
 Bem-vindo ao guia completo de Python! Aqui você encontrará dicas, conceitos e exemplos práticos organizados por tópicos.
 
+## 🌍 Language / Idioma
+
+- 🇧🇷 **[Português](#índice)** (Original)
+- 🇺🇸 **[English](README_EN.md)** (English version)
+
 ## 📚 Índice
 
 ### 🚀 **Configuração Inicial**

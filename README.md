@@ -4,6 +4,17 @@
 
 ---
 
+## 🌍 Language / Idioma
+
+- 🇧🇷 **[Português](#sobre-o-curso)** (Original)
+- 🇺🇸 **[English](README_EN.md)** (English version)
+
+### 📚 **Course Indexes / Índices do Curso:**
+- 🇧🇷 **[Índice Completo](COURSE_INDEX.md)** - Visão geral de todo o conteúdo
+- 🇺🇸 **[Complete Index](COURSE_INDEX_EN.md)** - Complete course overview
+
+---
+
 ## 🎯 Sobre o Curso
 
 Este é um **curso prático e progressivo** de Inteligência Artificial, criado especificamente para **Cristofer** e orientado por IA. Aqui você vai aprender desde os fundamentos até projetos avançados, tudo com exemplos reais e hands-on.
